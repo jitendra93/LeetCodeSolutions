@@ -16,6 +16,7 @@ fun main(){
             "e.png, Warsaw, 2016-01-02 09:49:09\n" +
             "f.png, Warsaw, 2016-01-02 10:55:32\n" +
             "g.jpg, Warsaw, 2016-02-29 22:13:11")
+
     println(res)
 }
 
@@ -47,3 +48,4 @@ fun solution2(S: String): String {
 
     return res
 }
+

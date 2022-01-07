@@ -5,6 +5,7 @@ import java.math.*
 import java.util.regex.*
 
 fun main(args: Array<String>) {
+
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     val a = arrayOf<Int>(10,12,11,15)
     val low = 10
@@ -16,8 +17,8 @@ fun main(args: Array<String>) {
         if(!a.contains(i)){
             println(i)
         }
+
         i++
     }
 
 }
-

@@ -25,6 +25,8 @@ import kotlin.text.*
  * The function accepts IntArrat arr as parameter.
  */
 
+
+
 fun squareArray(arr: Array<Int>): Array<Int> {
     if(arr.isEmpty()){
         return arr
@@ -73,7 +75,12 @@ fun squareArray(arr: Array<Int>): Array<Int> {
 }
 
 fun main(args: Array<String>) {
-    val scan = Scanner(System.`in`)
+
+    val ab = 4 times "SDF"
+    print(ab)
+
+
+   /* val scan = Scanner(System.`in`)
 
     val nd = scan.nextLine().split(" ")
 
@@ -83,5 +90,5 @@ fun main(args: Array<String>) {
 
     val result = squareArray(a)
 
-    println(result.joinToString(" "))
+    println(result.joinToString(" "))*/
 }
